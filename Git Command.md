@@ -7,8 +7,9 @@
 4) git commit -m "Commit 1: Initial project setup"   //(Commit your changes with a message)
 
  **Setting Up Your Repository on GitHub:**
-5) git branch -M main   //(Create and assign the 'main' branch)
-6) git remote add origin https://github.com/AbdullahAnxari/flutter_2023.git      //(To add origin)
+1) git branch -M main   //(Create and assign the 'main' branch)
+2) git remote add origin https://github.com/AbdullahAnxari/flutter_2023.git      //(To add origin)
+
 
  **Uploading Your Code to GitHub:**
 7) git push -u origin main   //(To upload/push on GitHub at the specified branch)
