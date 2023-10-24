@@ -6,13 +6,13 @@
 4) git commit -m "Commit 1: Initial project setup"   //(Commit your changes with a message)
 
  **Setting Up Your Repository on GitHub:**
-	1) git remote add origin https://github.com/AbdullahAnxari/flutter_2023.git      //(To add origin) 
-1) git remote -v   //(To check remote repository)
-2) git branch  //(To check the branch name) 
-3) git branch -M main   //(Create and assign the 'main' branch)
+1) git remote add origin https://github.com/AbdullahAnxari/flutter_2023.git      //(To add origin) 
+2) git remote -v   //(To check remote repository)
+3) git branch  //(To check the branch name) 
+4) git branch -M main   //(Create and assign the 'main' branch)
 
 
- **Uploading/Pushing Your Code to GitHub:** (push command)
+ **Pushing/Uploading Your Code to GitHub:** (push command)
 1) git push -u origin main   //(To upload/push on GitHub at the specified branch. The `-u` flag sets the upstream branch, making future pushes easier.)
 2) git push   //(No need to write origin main again because of -u)
 
