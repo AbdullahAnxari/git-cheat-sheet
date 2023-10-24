@@ -1,21 +1,25 @@
-1) git init        //(To initialise a project with Git)
-2) git add .     //(To track all the files)
-3) git status    //(To check the status of the git)
-4) git commit -m 'commit 1/message'    //(To commit all the tracking files)
-5) git branch -M main   //(To create a branch and assigned as a main)
+**Initializing a New Project:**
+
+ **Initializing a New Project:**
+1) git init        //(To initialise a new project with Git)
+2) git add .     //(Add all files to version controls)
+3) git status    //(Check the status of your Git repository)
+4) git commit -m "Commit 1: Initial project setup"   //(Commit your changes with a message)
+
+ **Setting Up Your Repository on GitHub:**
+5) git branch -M main   //(Create and assign the 'main' branch)
 6) git remote add origin https://github.com/AbdullahAnxari/flutter_2023.git      //(To add origin)
-7) git push -u origin main   //(To upload on GitHub at the specified branch)
 
+ **Uploading Your Code to GitHub:**
+7) git push -u origin main   //(To upload/push on GitHub at the specified branch)
 
-
-
-Git commit and push:
+ **Git Committing and Pushing Changes:**
 1) git add .      //(To track all the files)
 2) git status    //(To check the status of the git)
-3) git commit -m 'commit 1/message'     //(To commit all the tracking files)
-4) git push -u origin main    //(To upload on GitHub at the specified branch)
+3) git commit -m 'Commit 2: Your commit message'     //(To commit all the tracking files)
+4) git push -u origin main    //(To push your changes to GitHub's 'main' branch)
 
 
-Creating new branch
-1) git checkout -b 'branch name'  //(for creating a new branch and switch to that branch)
-2) git switch 'branch name'    //(for switching to another)
+**Creating and Switching to a New Branch:**
+1) git checkout -b 'branch name'  //(Create a new branch and switch to it)
+2) git switch 'branch name'    //(Switch to an existing branch)
