@@ -12,7 +12,7 @@
 
 
  **Uploading Your Code to GitHub:**
-7) git push -u origin main   //(To upload/push on GitHub at the specified branch)
+1) git push -u origin main   //(To upload/push on GitHub at the specified branch)
 
  **Git Committing and Pushing Changes:**
 1) git add .      //(To track all the files)
