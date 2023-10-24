@@ -10,10 +10,10 @@
 
 
 Git commit and push:
-2) git add .      //(To track all the files)
-3) git status    //(To check the status of the git)
-4) git commit -m 'commit 1/message'     //(To commit all the tracking files)
-7) git push -u origin main    //(To upload on GitHub at the specified branch)
+1) git add .      //(To track all the files)
+2) git status    //(To check the status of the git)
+3) git commit -m 'commit 1/message'     //(To commit all the tracking files)
+4) git push -u origin main    //(To upload on GitHub at the specified branch)
 
 
 Creating new branch
