@@ -1,3 +1,5 @@
+...................................................................................................
+
 .....................................String.xml....................................................
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -7,7 +9,6 @@
     <string name="facebook_client_token">8cf88407861a037b848f5c8fd035ec73</string>
     <string name="app_name">auth_firebase</string>
 </resources>
-
 .....................................ANDROID_MENIFEST..............................................
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -72,6 +73,8 @@
             android:value="2" />
     </application>
 </manifest>
+
+
 
 
 
