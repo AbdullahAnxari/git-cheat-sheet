@@ -1,5 +1,3 @@
-//* ANDROID_MENIFEST
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.auth_firebase">
 
