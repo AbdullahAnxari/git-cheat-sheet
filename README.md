@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.auth_firebase">
+    package="com.example.auth_practice">
+
     <!-- Add a uses-permission element to the manifest -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <!-- this one is Optionnal -->
