@@ -1,7 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.auth_firebase">
-
+    <!-- Add a uses-permission element to the manifest -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- this one is Optionnal -->
+    <!--<uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/>-->
+
     <queries>
       <provider android:authorities="com.facebook.katana.provider.PlatformProvider"/>
     </queries> 
@@ -11,9 +14,12 @@
         android:label="auth_firebase"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        
+        <!-- Add meta-data elements to the application  -->
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
    	    <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
 
+        <!-- Add activity for Facebook for Chrome Custom Tabs  -->
         <activity android:name="com.facebook.FacebookActivity"
             android:configChanges=
                     "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
@@ -28,7 +34,7 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-            
+        <!-- End of activity for facebook -->
 
 
         <activity
